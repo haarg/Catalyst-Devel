@@ -1,5 +1,12 @@
 This file documents the revision history for Perl extension Catalyst-Devel.
 
+        - fix warnings in Makefile.PL
+        - clean up author prereqs
+        - add perl version prereq metadata
+        - fix Makefile.PL and skeleton Makefile.PL to include current
+          directory to @INC to allow Module::Install to work properly on newer
+          versions of perl.
+        - set UTF-8 encoding in the application skeleton template
         - Typo fixes. RT#87103
         - Catalyst::Restarter::Forking: clear watcher in child process.
           RT#119830
